@@ -2,7 +2,7 @@ FROM redis:3.2 AS redis
 
 FROM traefik:1.4.4 AS traefik
 
-FROM cerner/kaiju-ruby-node:2.4.2-8.4.0
+FROM cerner/kaiju-ruby-node:2.4.2-8.9.2
 
 # Start redis installation
 COPY --from=redis /usr/local/bin/redis-server /usr/local/bin/redis-server

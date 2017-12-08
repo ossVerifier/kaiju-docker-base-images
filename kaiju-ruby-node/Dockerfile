@@ -1,4 +1,4 @@
-FROM node:8.4.0 AS node
+FROM node:8.9.2 AS node
 
 FROM ruby:2.4.2
 # Start Node installation
